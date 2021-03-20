@@ -20,7 +20,7 @@ import (
 	cliflag "k8s.io/component-base/cli/flag"
 	"k8s.io/klog"
 	"time"
-	"/pkg/args"
+	"github.com/huone1/numatopo/pkg/args"
 	"github.com/huone1/numatopo/pkg/numatopo"
 	"github.com/huone1/numatopo/pkg/client/clientset/versioned"
 )
