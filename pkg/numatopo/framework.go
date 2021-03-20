@@ -1,8 +1,8 @@
 package numatopo
 
 import (
-	"volcano.sh/noderestopo/pkg/apis/nodeinfo/v1alpha1"
-	"volcano.sh/noderestopo/pkg/args"
+	"github.com/huone1/numatopo/pkg/apis/nodeinfo/v1alpha1"
+	"github.com/huone1/numatopo/pkg/args"
 )
 
 var numaMap = map[v1alpha1.ResourceName]NumaInfo{}

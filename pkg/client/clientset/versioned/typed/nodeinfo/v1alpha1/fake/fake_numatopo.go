@@ -26,7 +26,7 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "k8s.io/client-go/testing"
-	v1alpha1 "volcano.sh/noderestopo/pkg/apis/nodeinfo/v1alpha1"
+	v1alpha1 "github.com/huone1/numatopo/pkg/apis/nodeinfo/v1alpha1"
 )
 
 // FakeNumatopos implements NumatopoInterface

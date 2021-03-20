@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"
-	v1alpha1 "volcano.sh/noderestopo/pkg/apis/nodeinfo/v1alpha1"
+	v1alpha1 "github.com/huone1/numatopo/pkg/apis/nodeinfo/v1alpha1"
 )
 
 // NumatopoLister helps list Numatopos.

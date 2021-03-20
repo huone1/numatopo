@@ -19,8 +19,8 @@ package v1alpha1
 
 import (
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "volcano.sh/noderestopo/pkg/apis/nodeinfo/v1alpha1"
-	"volcano.sh/noderestopo/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/huone1/numatopo/pkg/apis/nodeinfo/v1alpha1"
+	"github.com/huone1/numatopo/pkg/client/clientset/versioned/scheme"
 )
 
 type NodeinfoV1alpha1Interface interface {

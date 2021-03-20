@@ -25,8 +25,8 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "volcano.sh/noderestopo/pkg/apis/nodeinfo/v1alpha1"
-	scheme "volcano.sh/noderestopo/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/huone1/numatopo/pkg/apis/nodeinfo/v1alpha1"
+	scheme "github.com/huone1/numatopo/pkg/client/clientset/versioned/scheme"
 )
 
 // NumatoposGetter has a method to return a NumatopoInterface.

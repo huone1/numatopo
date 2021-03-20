@@ -5,7 +5,7 @@ set -o nounset
 set -o pipefail
 
 # corresponding to go mod init <module>
-MODULE=volcano.sh/noderestopo
+MODULE=github.com/huone1/numatopo
 # api package
 APIS_PKG=pkg/apis
 # generated output package

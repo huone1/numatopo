@@ -8,9 +8,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/klog"
 
-	"volcano.sh/noderestopo/pkg/apis/nodeinfo/v1alpha1"
-	"volcano.sh/noderestopo/pkg/args"
-	"volcano.sh/noderestopo/pkg/client/clientset/versioned"
+	"github.com/huone1/numatopo/pkg/apis/nodeinfo/v1alpha1"
+	"github.com/huone1/numatopo/pkg/args"
+	"github.com/huone1/numatopo/pkg/client/clientset/versioned"
 )
 
 func NodeInfoRefresh(opt *args.Argument) bool {

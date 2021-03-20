@@ -23,9 +23,9 @@ import (
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	clientset "volcano.sh/noderestopo/pkg/client/clientset/versioned"
-	nodeinfov1alpha1 "volcano.sh/noderestopo/pkg/client/clientset/versioned/typed/nodeinfo/v1alpha1"
-	fakenodeinfov1alpha1 "volcano.sh/noderestopo/pkg/client/clientset/versioned/typed/nodeinfo/v1alpha1/fake"
+	clientset "github.com/huone1/numatopo/pkg/client/clientset/versioned"
+	nodeinfov1alpha1 "github.com/huone1/numatopo/pkg/client/clientset/versioned/typed/nodeinfo/v1alpha1"
+	fakenodeinfov1alpha1 "github.com/huone1/numatopo/pkg/client/clientset/versioned/typed/nodeinfo/v1alpha1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

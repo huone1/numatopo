@@ -3,7 +3,7 @@ package numatopo
 import (
 	"io/ioutil"
 	"reflect"
-	"volcano.sh/noderestopo/pkg/apis/nodeinfo/v1alpha1"
+	"github.com/huone1/numatopo/pkg/apis/nodeinfo/v1alpha1"
 
 	"k8s.io/klog"
 	kubeletconfigv1beta1 "k8s.io/kubelet/config/v1beta1"

@@ -1,4 +1,4 @@
-module volcano.sh/noderestopo
+module github.com/huone1/numatopo
 
 go 1.13
 

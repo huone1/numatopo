@@ -23,7 +23,7 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	nodeinfov1alpha1 "volcano.sh/noderestopo/pkg/apis/nodeinfo/v1alpha1"
+	nodeinfov1alpha1 "github.com/huone1/numatopo/pkg/apis/nodeinfo/v1alpha1"
 )
 
 var scheme = runtime.NewScheme()

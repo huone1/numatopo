@@ -26,9 +26,9 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	versioned "volcano.sh/noderestopo/pkg/client/clientset/versioned"
-	internalinterfaces "volcano.sh/noderestopo/pkg/client/informers/externalversions/internalinterfaces"
-	nodeinfo "volcano.sh/noderestopo/pkg/client/informers/externalversions/nodeinfo"
+	versioned "github.com/huone1/numatopo/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/huone1/numatopo/pkg/client/informers/externalversions/internalinterfaces"
+	nodeinfo "github.com/huone1/numatopo/pkg/client/informers/externalversions/nodeinfo"
 )
 
 // SharedInformerOption defines the functional option type for SharedInformerFactory.

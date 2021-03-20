@@ -20,9 +20,9 @@ import (
 	cliflag "k8s.io/component-base/cli/flag"
 	"k8s.io/klog"
 	"time"
-	"volcano.sh/noderestopo/pkg/args"
-	"volcano.sh/noderestopo/pkg/numatopo"
-	"volcano.sh/noderestopo/pkg/client/clientset/versioned"
+	"/pkg/args"
+	"github.com/huone1/numatopo/pkg/numatopo"
+	"github.com/huone1/numatopo/pkg/client/clientset/versioned"
 )
 
 var logFlushFreq = pflag.Duration("log-flush-frequency", 5*time.Second, "Maximum number of seconds between log flushes")
